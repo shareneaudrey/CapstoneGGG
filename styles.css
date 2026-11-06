@@ -1,5 +1,31 @@
-        <title>GGGCapsole</title>
-             <meta charset="utf-8">
-{
-    background-color: red;
+body {
+    background-color:rgb(63, 77, 76);
+}
+h1 {
+    Font-family: "century gothic";
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(255, 248, 240);
+}
+h2 {
+    font-family: "Old English Text MT";
+    font-size: 40px;
+    font-weight: light;
+    color: rgb(213,137,54);
+}
+p {
+    font-family: "century gothic";
+    font-size: 20px;
+    font-weight: light;
+    color: rgb(255, 248, 240);
+}
+h3 {
+    font-family: "Juice ITC";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: rgb(255, 248, 240);
+}
+figcaption{
+    font-family: "Old English Text MT";
+    color: rgb(255, 248, 240);
 }
