@@ -1,31 +1,40 @@
 body {
-    background-color:rgb(63, 77, 76);
+    background-color:rgb(15, 42, 61 );
 }
 h1 {
-    Font-family: "century gothic";
-    font-size: 100px;
-    font-weight: bold;
+    Font-family: "candara light";
+    font-size: 125px;
+    font-weight: light;
     color: rgb(255, 248, 240);
 }
 h2 {
     font-family: "Old English Text MT";
-    font-size: 40px;
+    font-size: 80px;
     font-weight: light;
-    color: rgb(213,137,54);
+    color: rgb(197, 191, 191);
 }
 p {
-    font-family: "century gothic";
+    font-family: "centaur";
     font-size: 20px;
     font-weight: light;
     color: rgb(255, 248, 240);
+    
 }
 h3 {
-    font-family: "Juice ITC";
-    font-optical-sizing: auto;
-    font-weight: 400;
-    color: rgb(255, 248, 240);
+    font-family: "Candara Light";
+    font-optical-sizing: bold;
+    font-weight: 250;
+    color: rgb(185, 163, 143);
+    font-size: 40px;    
+}
+h4 {
+    font-family: "Candara Light";
+    font-optical-sizing: bold;
+    font-weight: 250;
+    color: rgb(185, 163, 143);
+    font-size: 40px;
 }
 figcaption{
     font-family: "Old English Text MT";
-    color: rgb(255, 248, 240);
+    color: rgb(185, 163, 143);
 }
