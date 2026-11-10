@@ -1,40 +1,48 @@
 body {
-    background-color:rgb(15, 42, 61 );
+    background-color:rgb(14, 17, 33);
+}
+h3, h4, h5, h6 {
+  font-family: "engravers mt";
+  font-size: 50px;
+
 }
 h1 {
-    Font-family: "candara light";
+    font-family: "candara light";
+    color: rgba(246, 244, 242, 0.744);
     font-size: 125px;
-    font-weight: light;
-    color: rgb(255, 248, 240);
+    text-align: left;    
 }
 h2 {
-    font-family: "Old English Text MT";
-    font-size: 80px;
-    font-weight: light;
-    color: rgb(197, 191, 191);
+    font-family: "old english text mt";
+    font-size: 100px;
+    text-align: center;
+    color: rgb(177, 176, 175)
 }
 p {
     font-family: "candara light";
+    font-size: 30px;
+    font-weight: light;
+    color: rgb(197, 156, 93);
+    text-align: center;
+    text-transform: capitalize;
+}
+ul {
+    font-family: "Candara Light";
     font-size: 20px;
     font-weight: light;
-    color: rgb(255, 248, 240);
-    
+    color: rgb(163, 125, 81);
 }
-h3 {
-    font-family: "Candara Light";
-    font-optical-sizing: bold;
-    font-weight: 250;
-    color: rgb(185, 163, 143);
-    font-size: 40px;    
-}
-h4 {
-    font-family: "Candara Light";
-    font-optical-sizing: bold;
-    font-weight: 250;
-    color: rgb(185, 163, 143);
-    font-size: 40px;
+p span {
+    text-align: center;
+
 }
 figcaption{
     font-family: "Old English Text MT";
-    color: rgb(185, 163, 143);
+    color: rgb(139, 77, 20);
+    font-size: 30
+}
+
+span {
+    text-decoration: "italic";
+
 }
