@@ -1,48 +1,61 @@
 body {
-    background-color:rgb(14, 17, 33);
+    background-color:rgb(62, 62, 61);
 }
-h3, h4, h5, h6 {
-  font-family: "engravers mt";
-  font-size: 50px;
 
-}
-h1 {
-    font-family: "candara light";
-    color: rgba(246, 244, 242, 0.744);
-    font-size: 125px;
-    text-align: left;    
-}
 h2 {
     font-family: "old english text mt";
-    font-size: 100px;
+    font-size: 185px;
     text-align: center;
-    color: rgb(177, 176, 175)
+    color:rgb(171, 126, 68)
+
+}
+main{
+    font-family: "Candara Light";
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+h3 {
+    font-family: "Vivaldi";
+    font-size: 80px;
+    text-align: center;
+    font-weight: light;
+    color: rgb(173, 150, 119);
+}
+h4 {
+    font-family: "Candara light";
+    font-size: 60px;
+    text-align: center;
+    font-weight: light;
+    color: rgb(255, 254, 252);
+
 }
 p {
     font-family: "candara light";
-    font-size: 30px;
-    font-weight: light;
-    color: rgb(197, 156, 93);
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
     text-align: center;
-    text-transform: capitalize;
+    
 }
-ul {
+dl {
     font-family: "Candara Light";
     font-size: 20px;
-    font-weight: light;
-    color: rgb(163, 125, 81);
-}
-p span {
+    font-weight: bold;
+    color: rgb(247, 244, 244);
     text-align: center;
+    text-decoration:aliceblue;
+}
+footer{
+    font-family:"old english text mt";
+    font-weight: light;
+    text-align: center;
+    font-size: 85px;
 
 }
-figcaption{
-    font-family: "Old English Text MT";
-    color: rgb(139, 77, 20);
-    font-size: 30
-}
-
-span {
-    text-decoration: "italic";
-
+.image-block img {
+  display: inline-block;
+  width: 28%;          /* Takes up just under half the width so two fit side-by-side */
+  height: auto;
 }
