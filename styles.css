@@ -1,61 +1,49 @@
 body {
-    background-color:rgb(62, 62, 61);
+    background-color:rgb(33, 33, 26);
 }
-
-h2 {
+h1 {
     font-family: "old english text mt";
-    font-size: 185px;
+    font-size: 150px;
     text-align: center;
-    color:rgb(171, 126, 68)
-
-}
-main{
-    font-family: "Candara Light";
-    font-size: 30px;
-    text-align: center;
-    color: white;
-
+    color:rgb(180, 180, 180)
 }
 h3 {
     font-family: "Vivaldi";
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
-    font-weight: light;
     color: rgb(173, 150, 119);
 }
 h4 {
     font-family: "Candara light";
     font-size: 60px;
-    text-align: center;
+    text-align: Center;
     font-weight: light;
     color: rgb(255, 254, 252);
-
 }
 p {
-    font-family: "candara light";
-    font-size: 25px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
+    font-family:"Candara light";
+    margin-top: 0;
+    font-size: 30px;
     text-align: center;
-    
+    color:rgb(154, 154, 149)
+
 }
 dl {
     font-family: "Candara Light";
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: rgb(247, 244, 244);
     text-align: center;
     text-decoration:aliceblue;
 }
+div {
+    Text-align: Center;
+}
+img {
+    text-align:center;
+}
 footer{
-    font-family:"old english text mt";
     font-weight: light;
     text-align: center;
     font-size: 85px;
-
-}
-.image-block img {
-  display: inline-block;
-  width: 28%;          /* Takes up just under half the width so two fit side-by-side */
-  height: auto;
 }
