@@ -1,18 +1,40 @@
 body {
     background-color:rgb(33, 33, 26);
 }
+
 h1 {
     font-family: "old english text mt";
     font-size: 150px;
     text-align: center;
-    color:rgb(180, 180, 180)
+    color:rgb(180, 180, 180);
+    line-height: 3.5;
 }
+
+h2 {
+    font-family: "Candara Light";
+    text-align: center;
+    font-size: 60px;
+    color: rgb(97, 44, 44);
+    font-weight: light;
+    line-height: 0;
+    text-transform: uppercase;
+
+}
+.hover-text {
+    font-size: 30px;
+    font-family: "candara light";
+
+}
+
 h3 {
     font-family: "Vivaldi";
     font-size: 60px;
     text-align: center;
     color: rgb(173, 150, 119);
+    line-height: 5;
+
 }
+
 h4 {
     font-family: "Candara light";
     font-size: 60px;
@@ -20,14 +42,16 @@ h4 {
     font-weight: light;
     color: rgb(255, 254, 252);
 }
+
 p {
     font-family:"Candara light";
     margin-top: 0;
+    line-height: 100%;
     font-size: 30px;
     text-align: center;
-    color:rgb(154, 154, 149)
-
+    color:rgb(154, 154, 149);
 }
+
 dl {
     font-family: "Candara Light";
     font-size: 30px;
@@ -35,15 +59,20 @@ dl {
     color: rgb(247, 244, 244);
     text-align: center;
     text-decoration:aliceblue;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 16px;
+     margin-bottom: 0px;
 }
-div {
-    Text-align: Center;
+
+div p{
+    line-height: 85%;
+
 }
 img {
     text-align:center;
 }
 footer{
     font-weight: light;
-    text-align: center;
-    font-size: 85px;
+    text-align: left;
+    font-size: 50px;
 }
