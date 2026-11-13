@@ -8,7 +8,6 @@ h1 {
     text-align: center;
     color: rgb(255, 253, 252);
     margin-bottom: 0.5rem;
-    background-color:rgb(16, 16, 16);
 }
 
 h2 {
@@ -19,7 +18,6 @@ h2 {
     font-weight: light;
     line-height: 0;
     text-transform: uppercase;
-
 }
 
 .opener {
@@ -31,7 +29,6 @@ h2 {
     margin-left: 180px;
     margin-right: 180px;
     margin-bottom: 90px;
-    
 }
 
 h3 {
@@ -41,8 +38,11 @@ h3 {
     color: rgb(164, 108, 36);
     margin-left: 10%;
     margin-top: 10%;
-    margin-bottom: 0.5rem;
-    
+    margin-bottom: 0.5rem;   
+}
+
+nav {
+    background-color: rgb(27, 27, 27);
 }
 
 dl {
@@ -51,18 +51,24 @@ dl {
     font-size: 20px;
 }
 
-.image-block {
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    display: flex;
-    background-color: rgb(16, 16, 16);
+figcaption {
+    font-family: "old english text mt";
+    font-size: 15px;
+    text-align: center;
+    color: white;
+
 
 }
 
-.fakemap {
-    margin-left: 18%;
+img {
+    margin-left: 45%;
 
+}
+
+.fakemap img {
+    align-content: center;
+    place-items: center;
+    height: 300px;
 }
 h4, h5, h6 {
     font-family: "Candara light";
@@ -71,7 +77,6 @@ h4, h5, h6 {
     color: rgb(163, 125, 74);
     font-weight: bold;
     margin-bottom: 0.5rem;
-
 }
 
 p {
@@ -81,15 +86,12 @@ p {
     color: rgb(247, 244, 244);
     margin-top: 15px;
     margin-right: 0;
-
-
 }
-
-
 
 footer{
     font-weight: light;
     text-align: left;
     font-size: 30px;
     font-family: "Candara Light";
+    background-size: auto;
 }
