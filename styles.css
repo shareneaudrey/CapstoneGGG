@@ -1,78 +1,95 @@
 body {
-    background-color:rgb(33, 33, 26);
+    background-color:rgb(18, 18, 19);
 }
 
 h1 {
     font-family: "old english text mt";
-    font-size: 150px;
+    font-size: 155px;
     text-align: center;
-    color:rgb(180, 180, 180);
-    line-height: 3.5;
+    color: rgb(255, 253, 252);
+    margin-bottom: 0.5rem;
+    background-color:rgb(16, 16, 16);
 }
 
 h2 {
     font-family: "Candara Light";
     text-align: center;
     font-size: 60px;
-    color: rgb(97, 44, 44);
+    color: rgb(170, 3, 3);
     font-weight: light;
     line-height: 0;
     text-transform: uppercase;
 
 }
-.hover-text {
-    font-size: 30px;
-    font-family: "candara light";
 
+.opener {
+    font-family:"Candara light";
+    margin-top: 0;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(154, 154, 149);
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 90px;
+    
 }
 
 h3 {
     font-family: "Vivaldi";
     font-size: 60px;
-    text-align: center;
-    color: rgb(173, 150, 119);
-    line-height: 5;
-
-}
-
-h4 {
-    font-family: "Candara light";
-    font-size: 60px;
-    text-align: Center;
-    font-weight: light;
-    color: rgb(255, 254, 252);
-}
-
-p {
-    font-family:"Candara light";
-    margin-top: 0;
-    line-height: 100%;
-    font-size: 30px;
-    text-align: center;
-    color:rgb(154, 154, 149);
+    text-align: left;
+    color: rgb(164, 108, 36);
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 0.5rem;
+    
 }
 
 dl {
-    font-family: "Candara Light";
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(247, 244, 244);
+    margin-left: 10%;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.image-block {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(16, 16, 16);
+
+}
+
+.fakemap {
+    margin-left: 18%;
+
+}
+h4, h5, h6 {
+    font-family: "Candara light";
+    font-size: 80px;
     text-align: center;
-    text-decoration:aliceblue;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 16px;
-     margin-bottom: 0px;
-}
-
-div p{
-    line-height: 85%;
+    color: rgb(163, 125, 74);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
 
 }
-img {
-    text-align:center;
+
+p {
+    font-family: "Candara light";
+    font-size: 30px;
+    text-align: center;
+    color: rgb(247, 244, 244);
+    margin-top: 15px;
+    margin-right: 0;
+
+
 }
+
+
+
 footer{
     font-weight: light;
     text-align: left;
-    font-size: 50px;
+    font-size: 30px;
+    font-family: "Candara Light";
 }
